@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #ab4cff;
+  color: #530697;
   font-size: 42px;
   font-weight: 500;
   line-height: 28px;
@@ -109,8 +109,8 @@ li:first-letter {
 
 .btn-primary {
   color: #fff;
-  background-color: #530697;
-  border-color: #530697;
+  background-color: #ab4cff;
+  border-color: #bea6d2;
 }
 
 .form-control {
@@ -133,7 +133,7 @@ a {
 #weather-description-btn li {
   list-style: none;
   background-color: #bea7d2;
-  width: 118px;
+  width: 120px;
   height: 32px;
   line-height: 30px;
   text-align: center;
@@ -147,4 +147,10 @@ a {
 #weather-description-btn li a {
   text-decoration: none;
   color: #ffffff;
+}
+
+.form-control {
+  border-color: #530697;
+  border: 1.4px solid #bea6d2;
+  color: #343a40;
 }
