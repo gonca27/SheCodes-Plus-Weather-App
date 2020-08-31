@@ -3,11 +3,12 @@ body {
 }
 
 h1 {
-  color: #878787;
-  font-size: 24px;
-  font-weight: 100;
+  color: #ab4cff;
+  font-size: 42px;
+  font-weight: 500;
   line-height: 28px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
+  margin-top: 30px;
 }
 
 ul {
@@ -20,10 +21,11 @@ li {
   margin: 0;
   padding: 0;
 
-  color: rgb(135, 135, 135);
+  color: #1a032f;
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 500;
   line-height: 19px;
+  padding-bottom: 3px;
 }
 
 li:first-letter {
@@ -76,17 +78,16 @@ li:first-letter {
 }
 
 .weather-forecast {
-  margin-top: 15px;
+  margin: 25px 0px 5px;
 }
 
 .weather-forecast h3 {
-  color:#545b62
-  font-size: 14px;
+  color: #545b62;
   font-weight: 400;
+  font-size: 15px;
   text-align: center;
   height: 15px;
-  line-height: 15px;
-  padding-top: 7px;
+  padding-top: 5px;
 }
 
 .weather-forecast img {
@@ -98,7 +99,7 @@ li:first-letter {
 
 .weather-forecast-temperature {
   text-align: center;
-  color:#545b62;
+  color: #545b62;
   font-size: 13px;
   font-weight: 400;
   height: auto;
@@ -127,4 +128,18 @@ a {
   color: #545b62;
   text-decoration: none;
   background-color: transparent;
+}
+
+#weather-description-btn li {
+  list-style: none;
+  background-color: #9faaff;
+  width: 150px;
+  line-height: 60px;
+  text-align: center;
+  list-style: none;
+}
+
+#weather-description-btn li a {
+  text-decoration: none;
+  color: #ffffff;
 }
