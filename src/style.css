@@ -39,7 +39,7 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 10px;
-  background-image: linear-gradient(to top, #f8dad2 5%, #dce6ff 100%);
+  background-image: linear-gradient(to top, #dce6ff 0%, #f8dad2);
 }
 
 .overview {
@@ -109,4 +109,18 @@ li:first-letter {
   color: #fff;
   background-color: #530697;
   border-color: #530697;
+}
+
+.form-control {
+  border-color: #530697;
+  border: 1.4px solid #520597;
+  color: #530697;
+}
+
+.weather-temperature strong {
+  color: #530697;
+}
+
+.weather-temperature .units {
+  color: #530697;
 }
