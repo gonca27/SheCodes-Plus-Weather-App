@@ -132,11 +132,14 @@ a {
 
 #weather-description-btn li {
   list-style: none;
-  background-color: #9faaff;
-  width: 150px;
-  line-height: 60px;
+  background-color: #bea7d2;
+  width: 118px;
+  height: 32px;
+  line-height: 30px;
   text-align: center;
   list-style: none;
+  border-radius: 8px;
+  cursor: none;
 }
 
 #weather-description-btn li a {
