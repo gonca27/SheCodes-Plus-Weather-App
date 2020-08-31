@@ -104,3 +104,8 @@ li:first-letter {
   line-height: 15px;
   white-space: nowrap;
 }
+
+.btn-primary {
+  color: #fff;
+  background-color: #530697;
+}
