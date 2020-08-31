@@ -133,7 +133,7 @@ a {
 #weather-description-btn li {
   list-style: none;
   background-color: #bea7d2;
-  width: 124px;
+  width: 128px;
   height: 32px;
   line-height: 30px;
   text-align: center;
@@ -153,4 +153,8 @@ a {
   border-color: #530697;
   border: 1.4px solid #bea6d2;
   color: #343a40;
+}
+
+#github-link {
+  text-decoration: underline;
 }
