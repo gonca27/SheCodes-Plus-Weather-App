@@ -56,7 +56,7 @@ li:first-letter {
 
 .weather-temperature strong {
   color: #530697;
-  font-size: 64px;
+  font-size: 72px;
   line-height: 1;
   font-weight: 400;
 }
@@ -140,6 +140,8 @@ a {
   list-style: none;
   border-radius: 8px;
   cursor: none;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
 #weather-description-btn li a {
