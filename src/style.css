@@ -38,7 +38,8 @@ li:first-letter {
 .weather-app {
   padding: 20px;
   border: 1px solid #dadde1;
-  border-radius: 5px;
+  border-radius: 10px;
+  background-image: linear-gradient(to top, #f8dad2 5%, #dce6ff 100%);
 }
 
 .overview {
